@@ -6,5 +6,6 @@ Esquema elétrico a seguir
 ![image](https://github.com/user-attachments/assets/2b3023cf-491e-4eb2-bb7f-4949c15173cf)
 
 Placa de circuito
-![image](https://github.com/user-attachments/assets/f0ba0532-413f-4986-95ff-51dd1177811e)
+![image](https://github.com/user-attachments/assets/5081be8b-6693-4a67-b3a5-2645a3511df3)
+
 
