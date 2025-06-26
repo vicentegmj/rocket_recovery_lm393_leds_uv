@@ -1543,6 +1543,12 @@
 		(uuid "416fb3b4-b385-4e9b-954f-77310d16b73e")
 	)
 	(junction
+		(at 129.54 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4743296f-805b-4787-8562-94bdd9f1988c")
+	)
+	(junction
 		(at 129.54 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1661,6 +1667,26 @@
 			(type default)
 		)
 		(uuid "0e9e14b3-ff8e-4b5e-bfc7-b24d4d1d366b")
+	)
+	(wire
+		(pts
+			(xy 146.05 48.26) (xy 146.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1771f684-aaea-4921-a97d-311367058922")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc6210c-718f-4f97-b695-51298b14ebbc")
 	)
 	(wire
 		(pts
@@ -1801,6 +1827,26 @@
 			(type default)
 		)
 		(uuid "4e7f4852-23c9-4d31-b70c-361ad1361015")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d4bdbe-0d47-49f7-b652-8eec84b6d526")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc8a0e4-f545-4fa8-a475-c7d12628645e")
 	)
 	(wire
 		(pts
@@ -2305,6 +2351,76 @@
 			(project "Save_Rocket_LM393"
 				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ec9aeb-f140-487d-a98c-0bb65b9c54e3")
+		(property "Reference" "R5"
+			(at 148.59 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 148.59 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 144.272 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fcd0984-3b9a-4c14-b9b0-4022b22e9475")
+		)
+		(pin "2"
+			(uuid "df2e5096-952c-40fc-ae01-e2594e67bc1c")
+		)
+		(instances
+			(project ""
+				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3119,6 +3235,83 @@
 			(project ""
 				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 138.43 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21f39bc-cef0-4beb-8549-532d66e0b031")
+		(property "Reference" "D3"
+			(at 136.8425 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 136.8425 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf4f2dda-c275-41f9-9e5a-a66d40987411")
+		)
+		(pin "2"
+			(uuid "c18ef810-1340-415a-af38-6adf37893df6")
+		)
+		(instances
+			(project ""
+				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
+					(reference "D3")
 					(unit 1)
 				)
 			)
